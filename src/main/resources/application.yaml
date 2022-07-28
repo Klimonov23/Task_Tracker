@@ -1,0 +1,14 @@
+spring:
+  main:
+    allow-circular-references: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/task_tracker
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: klimonov23
+
+
